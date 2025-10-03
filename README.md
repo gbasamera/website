@@ -1,38 +1,23 @@
-# test
+# 个人使用Vue创建的第一个网页（可能）
 
-This template should help get you started developing with Vue 3 in Vite.
+一次小小的尝试，也许会带来大的飞跃。这不是最完美的，但只要能做到，说不定某种程度上可以改变世界。
 
-## Recommended IDE Setup
+## Idea集成开发环境
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+这里要写什么我不道啊
 
-## Recommended Browser Setup
+## 支持的浏览器
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+哎呀无所谓了反正需要改的时候再说嘛
 
-## Customize configuration
+## 关于网站
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+等做好了再说吧
 
-## Project Setup
+## 使用方法
 
-```sh
-npm install
-```
+没有（欸嘿）
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+总之一切未定，不过没有占位置的，看着可不那么美观。
+如果真的可以做出来。。。
