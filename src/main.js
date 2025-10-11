@@ -4,12 +4,12 @@ import { createPinia } from "pinia";
 import ElementPlus from "element-plus";
 import "element-plus/dist/index.css";
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
-import "./tailwindcss.css";
+import "./tailwind-output.css";
 import App from './App.vue'
 
 const app = createApp(App);
 
-Object.keys(ElementPlus).forEach((key) => {
+Object.keys(ElementPlusIconsVue).forEach((key) => {
     app.component(key, ElementPlusIconsVue[key]);
 });
 
