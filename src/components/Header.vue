@@ -8,7 +8,7 @@ const register = () => {};
 
 const navItems = [
   { name: "首页", href: "/" },
-  { name: "功能1", href: "#" },
+  { name: "功能1", href: "/function1" },
   { name: "功能2", href: "#" },
   { name: "组合功能", href: "#", hasDropdown: true },
   { name: "关于", href: "#" }
@@ -19,17 +19,17 @@ const navItems = [
   <div class="flex items-center justify-between py-4">
     <!-- 主导航 -->
     <nav class="flex items-center space-x-8">
-      <a
+      <router-link
           v-for="item in navItems"
           :key="item.name"
-          :href="item.href"
+          :to="item.href"
           class="flex items-center space-x-1 text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium group"
       >
         <span>{{ item.name }}</span>
         <el-icon v-if="item.hasDropdown" class="group-hover:rotate-180 transition-transform duration-200">
           <ArrowDownBold />
         </el-icon>
-      </a>
+      </router-link>
     </nav>
 
     <!-- 搜索和用户操作 -->
